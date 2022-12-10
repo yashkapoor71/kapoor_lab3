@@ -1,17 +1,10 @@
 # kapoor_lab3
-Write a program that reads a list of integers from input and determines if the list is a palindrome (values are identical from first to last and last to first). The input begins with an integer indicating the length of the list that follows. Assume that the list will always contain fewer than 20 integers. Output "yes" if the list is a palindrome and "no" otherwise. The output ends with a newline.
+The Fibonacci sequence begins with 0 and then 1 follows. All subsequent values are the sum of the previous two, for example: 0, 1, 1, 2, 3, 5, 8, 13. Complete the fibonacci() method, which has an index, n, as parameter and returns the nth value in the sequence. Any negative index values should return -1.
 
 Ex: If the input is:
 
-6 
-1 5 9 9 5 1
+7
 the output is:
 
-yes
-Ex: If the input is:
-
-5 
-1 2 3 4 5
-the output is:
-
-no
+fibonacci(7) is 13
+Note: Use a for loop and DO NOT use recursion.
